@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.login.LoginFragment">
+
+    <FrameLayout
+        android:id="@+id/login_default"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher_round"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Namboo"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                android:textSize="30sp"/>
+            <TextView
+                android:id="@+id/login_text_view_to_connect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_info_background"
+                android:paddingTop="20dp"
+                android:layout_marginTop="200dp"
+                android:paddingBottom="20dp"
+                android:gravity="center"
+                android:text="Se connecter"/>
+
+            <TextView
+                android:id="@+id/login_text_view_no_account"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Vous n'avez de compte"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

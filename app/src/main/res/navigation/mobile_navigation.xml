@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.xampy.namboo.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_make_post"
+        android:name="com.xampy.namboo.ui.posts.MakePostFragment"
+        android:label="@string/title_make_post"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/navigation_services"
+        android:name="com.xampy.namboo.ui.services.ServicesFragment"
+        android:label="@string/title_services"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/navigation_credit"
+        android:name="com.xampy.namboo.ui.fonds.PaymentFragment"
+        android:label="@string/title_payment"
+        tools:layout="@layout/fragment_payment" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.xampy.namboo.ui.profile.ProfileFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_profile" />
+
+
+</navigation>

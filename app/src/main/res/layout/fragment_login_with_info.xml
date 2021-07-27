@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background"
+    tools:context=".ui.login.LoginWithInfoFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="220dp"
+           android:background="@drawable/login_with_info_head_frame">
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="20dp"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:scaleType="centerCrop"
+                   android:layout_gravity="center_horizontal"
+                   android:src="@drawable/home_banner"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_horizontal"
+                   android:text="Namboo"
+                   android:textColor="@color/white"
+                   android:textStyle="bold|italic"
+                   android:textSize="30sp"/>
+           </LinearLayout>
+       </FrameLayout>
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="50dp"
+           android:layout_marginTop="30dp"
+           android:layout_marginRight="50dp">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:hint="Numéro de Téléphone"
+                   android:paddingLeft="15dp"
+                   android:paddingRight="15dp"
+                   android:paddingTop="10dp"
+                   android:paddingBottom="10dp"
+                   android:background="@drawable/login_info_background"/>
+
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:layout_marginTop="20dp"
+                   android:hint="Numéro de Téléphone"
+                   android:paddingLeft="15dp"
+                   android:paddingRight="15dp"
+                   android:paddingTop="10dp"
+                   android:paddingBottom="10dp"
+                   android:background="@drawable/login_info_background"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@color/colorPrimary"
+                   android:paddingTop="15dp"
+                   android:layout_marginTop="50dp"
+                   android:paddingBottom="15dp"
+                   android:gravity="center"
+                   android:textColor="@color/white"
+                   android:textSize="20sp"
+                   android:text="Se connecter"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:gravity="center"
+                   android:text="Vous n'avez de compte"/>
+           </LinearLayout>
+       </FrameLayout>
+   </LinearLayout>
+
+</FrameLayout>

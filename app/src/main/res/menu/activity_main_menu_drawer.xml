@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_main_drawer_home"
+            android:title="Acceuil"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/activity_main_drawer_rent"
+            android:title="En location"
+            android:icon="@drawable/ic_rent_black"/>
+        <item
+            android:id="@+id/activity_main_drawer_sell"
+            android:title="En vente"
+            android:icon="@drawable/ic_buy_room"/>
+        <item
+            android:id="@+id/activity_main_drawer_services"
+            android:title="Services"
+            android:icon="@drawable/ic_layers_black_24dp"/>
+
+        <item
+            android:id="@+id/activity_main_drawer_search"
+            android:title="Rechercher"
+            android:icon="@drawable/ic_search_black_24dp"/>
+
+    </group>
+
+    <item android:title="Divers">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/activity_main_drawer_share"
+                    android:title="Partager"
+                    android:icon="@drawable/ic_share_black_24dp"/>
+                <item
+                    android:id="@+id/activity_main_drawer_about"
+                    android:title="A propos"
+                    android:icon="@drawable/ic_question_about"/>
+                <item
+                    android:id="@+id/activity_main_drawer_aterms"
+                    android:title="Termes et Consditions"
+                    android:icon="@drawable/ic_certificate_black"/>
+            </group>
+        </menu>
+    </item>
+</menu>

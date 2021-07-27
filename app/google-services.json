@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "939203420984",
+    "firebase_url": "https://xam-namboo-app.firebaseio.com",
+    "project_id": "xam-namboo-app",
+    "storage_bucket": "xam-namboo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939203420984:android:8fea77870747276c6ad7cd",
+        "android_client_info": {
+          "package_name": "com.xampy.namboo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939203420984-kk7fcod17j3vlnqudlqu8d07012fd25g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xampy.namboo",
+            "certificate_hash": "ecc96d025136db64739dd79a8bf63a2e0bdf72b1"
+          }
+        },
+        {
+          "client_id": "939203420984-bqj1gtu2bai49iot3ghfgl8rhu8trp43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAsn_fdzP_6eR6OdinRioOo7K34Wm81Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939203420984-bqj1gtu2bai49iot3ghfgl8rhu8trp43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

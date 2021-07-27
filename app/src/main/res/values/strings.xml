@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Namboo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home_long_information">Lancer une recherche personalisée pour trouver des biens en fonction de votre budget, quartier et plein d\'autres critères</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_payment">Fonds</string>
+    <!-- Used in NavigationDrawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_make_post">Poster</string>
+    <string name="title_services">services</string>
+
+
+    <!-- Make  post strings values -->
+    <string name="renting_name">Location</string>
+    <string name="selling_name">Vente</string>
+    <string name="bed_room_name">Chambre</string>
+    <string name="home_name">Maison</string>
+    <string name="land_name">Terrain</string>
+    <string name="others_name">Autres</string>
+    <string name="save_text">ok</string>
+    <string name="name_title">Nom</string>
+    <string name="name_title_statut">Statut</string>
+    <!-- Make post type of post string array-->
+    <string-array name="make_post_posts_types">
+        <item>@string/renting_name</item>
+        <item>@string/selling_name </item>
+    </string-array>
+    <string-array name="make_post_rooms_types">
+        <item>@string/bed_room_name</item>
+        <item>@string/home_name</item>
+        <item>@string/land_name</item>
+    </string-array>
+    <string-array name="make_post_cities">
+        <item>Lomé</item>
+        <item>Kara</item>
+        <item>Tsévie</item>
+        <item>Atakpamé</item>
+        <item>Mango</item>
+        <item>Dapaong</item>
+    </string-array>
+    <string-array name="make_post_district">
+        <item>Adakpamé</item>
+        <item>Anfamé</item>
+        <item>Adidogomé</item>
+        <item>Zanguera</item>
+        <item>Awatame</item>
+        <item>Sagbado</item>
+        <item>Attigangomé</item>
+        <item>Avenou</item>
+        <item>Yokou</item>
+        <item>Agbalepedo</item>
+        <item>Wognome</item>
+        <item>Totsi</item>
+        <item>Atikoume</item>
+        <item>Quasamblaca</item>
+        <item>Tokoin</item>
+        <item>Djidjole</item>
+        <item>Avedji</item>
+        <item>Amadahome</item>
+        <item>Agoe</item>
+        <item>Bè</item>
+        <item>Gblinkomé</item>
+        <item>Baguida</item>
+        <item>Togokome</item>
+        <item>Ablogome</item>
+    </string-array>
+
+    <string-array name="register_countries_spinner">
+        <item>Togo</item>
+    </string-array>
+
+    <string name="macon">Maçon</string>
+    <string name="electricien">Electricien</string>
+    <string name="peinture">Peintre</string>
+    <string name="deco_int">Déco &amp; Intérieurs</string>
+
+    <string name="pass_old_title">Ancien mot de passe</string>
+    <string name="name_title_city">Ville</string>
+
+    <string name="name_title_district">Quartier</string>
+    <string name="_0">0</string>
+    <string-array name="profile_set_status_choice">
+        <item>Particulier</item>
+        <item>Agent Immobilier</item>
+        <item>@string/macon</item>
+        <item>@string/electricien</item>
+        <item>@string/peinture</item>
+        <item>Plombier</item>
+        <item>Charpentier</item>
+        <item>Menusier</item>
+        <item>@string/deco_int</item>
+    </string-array>
+</resources>

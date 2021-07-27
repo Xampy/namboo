@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/my_posts_item_bacground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/services_user_item_image_view"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_default_user_profile_image"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/services_user_item_name_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+                <TextView
+                    android:id="@+id/services_user_item_location_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="12sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/services_user_item_service_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="15sp"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/services_user_item_whatsapp_image_view"
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_whatsapp_messager"/>
+
+                    <ImageView
+                        android:id="@+id/services_user_item_call_image_view"
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ic_call_yellow_24dp"/>
+
+                    <ImageView
+                        android:id="@+id/services_user_item_go_image_view"
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ic_place_black_24dp"/>
+
+                    <!-- <TextView
+                        android:id="@+id/services_user_item_call_text_view"
+                        android:layout_width="75dp"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:text="Appeler"
+                        android:padding="8dp"
+                        android:background="@color/green_white"
+                        android:textColor="@color/white"/>
+                    <TextView
+                        android:id="@+id/services_user_item_visit_text_view"
+                        android:layout_width="75dp"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Visiter"
+                        android:padding="8dp"
+                        android:background="@color/yellow_two"
+                        android:textColor="@color/white"/> -->
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="@color/colorPrimary">
+
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
